@@ -50,6 +50,10 @@ export class SynchronizationScheduler implements OnApplicationBootstrap, OnAppli
     this.logger.log(
       `Scheduled synchronization every ${this.challenge.syncIntervalMinutes} minute(s).`,
     );
+
+    // Do not make an administrator wait a full interval after a backend restart.
+    // `tick` already ignores an uninitialized challenge and prevents overlapping runs.
+    void this.tick();
   }
 
   public onApplicationShutdown(): void {

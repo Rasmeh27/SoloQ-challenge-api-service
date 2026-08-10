@@ -65,6 +65,13 @@ export const PARTICIPANTS: readonly ParticipantDefinition[] = [
     platform: 'LA1',
     enabled: true,
   },
+  {
+    id: 'EddavivHaedger',
+    gameName: 'EddavivHaedger',
+    tagLine: '6745',
+    platform: 'LA1',
+    enabled: true,
+  },
 ];
 
 export interface ParticipantsConfiguration {
