@@ -72,6 +72,13 @@ export const PARTICIPANTS: readonly ParticipantDefinition[] = [
     platform: 'LA1',
     enabled: true,
   },
+  {
+    id: 'Lil-Thorkell',
+    gameName: 'Lil Thorkell',
+    tagLine: 'CRLOL',
+    platform: 'LA1',
+    enabled: true,
+  },
 ];
 
 export interface ParticipantsConfiguration {
