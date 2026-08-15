@@ -79,6 +79,13 @@ export const PARTICIPANTS: readonly ParticipantDefinition[] = [
     platform: 'LA1',
     enabled: true,
   },
+  {
+    id: 'EatBullets2710',
+    gameName: 'EatBullets2710',
+    tagLine: 'LAN',
+    platform: 'LA1',
+    enabled: true,
+  },
 ];
 
 export interface ParticipantsConfiguration {
